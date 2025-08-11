@@ -1,10 +1,14 @@
 # ↓ Importa as ferramentas necessárias do Flask ↓
+
 # Flask: É a ferramenta principal, a classe que usamos para criar nossa aplicação web.
 # request: Um objeto que contém todas as informações que o navegador do usuário nos enviou (como o tipo de navegador, qual URL ele pediu, etc.).
 # make_response: Uma função para construir um objeto de resposta mais complexo.
 # redirect: Uma função para enviar o navegador do usuário para outra URL.
 # url_for: Uma função auxiliar para criar URLs para outras rotas do nosso código, em vez de escrevê-las manualmente.
 # abort: Uma função para parar a requisição imediatamente e retornar um código de erro (como "Página não encontrada" ou "Acesso Proibido").
+
+
+#COMENTÁRIO TESTE AAAAAAAAAAAAAAAAAA
 
 from flask import Flask, request, make_response, redirect, url_for, abort
 
